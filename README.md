@@ -7,7 +7,12 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
 * Berikut Programnya :
 
 
-**Flowchart**
+                                                                                    **Flowchart**
+
+
+![flowchart](https://user-images.githubusercontent.com/115480692/204458985-ecb2225f-63b2-47f0-afa3-9c50ffb6cbab.jpg)
+
+
 
 # Penjelasan
 
@@ -78,6 +83,11 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
                 break
         akhir = round((float(tugas) * 0.3)+(float(uts) * 0.35)+(float(uas) * 0.35),2)
         data[nama] = [nama, nim, tugas, uts, uas, akhir]
+        
+
+### Output
+
+![t](https://user-images.githubusercontent.com/115480692/204459335-8854ebe8-6e81-4cd2-92c3-f9e152b2d3aa.png)
 
 
 ## Mengubah data
@@ -144,6 +154,11 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
 
         else:
             print("Data {} tidak ditemukan".format(nama))
+            
+### Output
+
+![u](https://user-images.githubusercontent.com/115480692/204459462-e74e9ae9-620f-4376-8c2b-1aa05e989b1b.png)
+
 
 ## Mencari data
 
@@ -167,6 +182,12 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
         else:
             print("Data {} tidak ditemukan".format(nama))
 
+### Output
+
+![c](https://user-images.githubusercontent.com/115480692/204459545-b6edc09a-755d-47b4-a7df-5c1652152a47.png)
+
+
+
 ## Menghapus data
 
 * Jika memasukan huruf 'h' maka akan melakukan penghapusan data
@@ -189,6 +210,12 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
         print("")
 
 
+### Output
+
+![h](https://user-images.githubusercontent.com/115480692/204459625-0c8e20d1-6032-4c98-a656-a40d614137e2.png)
+
+
+
 ## Melihat data
 
 * Jika memasukan huruf 'l' maka akan menampilkan semua data
@@ -206,6 +233,10 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
             no += 1
         print("===========================================================================")
 
+### Output
+
+![l](https://user-images.githubusercontent.com/115480692/204459696-ccd18ae6-38bc-420e-a2d6-9db9c87acd68.png)
+
 
 ## Keluar
 
@@ -213,3 +244,11 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
 
         if c.lower() == 'k':
         break
+
+### Output
+
+![k](https://user-images.githubusercontent.com/115480692/204459774-53ee7a43-fbf8-47d5-9a27-b381257bd9b5.png)
+
+# Program selesai
+
+
