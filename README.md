@@ -7,7 +7,7 @@ Membuat program sederhana yang akan menampilkan daftar nilai Mahasiswa menggunak
 * Berikut Programnya :
 
 
-                                                                                    **Flowchart**
+**Flowchart**
 
 
 ![flowchart](https://user-images.githubusercontent.com/115480692/204458985-ecb2225f-63b2-47f0-afa3-9c50ffb6cbab.jpg)
